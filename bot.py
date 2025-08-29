@@ -44,7 +44,7 @@ async def main():
         accounts = await Accounts().get_accounts()
 
         tasks = []
-
+ 
         for thread, account in enumerate(accounts):
             session_name, phone_number, proxy = account.values()
             if action == 1:
@@ -53,5 +53,6 @@ async def main():
                 tasks.append(asyncio.create_task(secret_word(secret_words=secret_words, session_name=session_name, phone_number=phone_number, thread=thread, proxy=proxy)))
 
         await asyncio.gather(*tasks)
+
 
 
