@@ -1,4 +1,4 @@
-# KiteAI automation simple python bot 
+# KiteAI ozone automation simple python bot 
 
 [![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+pB6j65Kv7cdjZmU0)
 
@@ -17,7 +17,7 @@
 
 # Installation+Run🕸
 ```shell
-git clone https://github.com/anthugeist/KiteAi
+git clone https://github.com/ox1nec/KiteAi
 cd KiteAi
 run.bat
 ```
@@ -25,7 +25,7 @@ run.bat
 **OR**
 
 ```shell
-git clone https://github.com/anthugeist/KiteAi
+git clone https://github.com/ox1nec/KiteAi
 cd KiteAi
 pip install -r requirements.txt
 python bot.py
